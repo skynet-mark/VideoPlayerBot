@@ -32,7 +32,7 @@ SESSION_STRING = getenv("SESSION_STRING", "BABJOHMEngVCcXjRh91PwTgxpQvjbxKi5ARJT
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "SafoTheBot")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "AsmSafone")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "MyVideoPlayer")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS").split(1642392777)))
 REPLY_MESSAGE = getenv("REPLY_MESSAGE", "")
 if REPLY_MESSAGE:
     REPLY_MESSAGE = REPLY_MESSAGE
